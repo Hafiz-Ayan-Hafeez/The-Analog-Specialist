@@ -1,0 +1,58 @@
+*{
+    .quattrocento-regular {
+        font-family: "Quattrocento", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .quattrocento-bold {
+        font-family: "Quattrocento", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1,h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.h2{
+    margin-top: 20px;
+    
+}
+.container{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 0px;
+}
+h4:hover{
+    display: inline;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.image{
+    width: 60%;
+    padding-top: 30px;
+}
+.image-center{
+    display: flex;
+    justify-content: center;
+}
+.top{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.center{
+    text-align: center;
+}
